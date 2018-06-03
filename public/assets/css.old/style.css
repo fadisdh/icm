@@ -1,0 +1,223 @@
+/* Common
+------------------------------------------------------------*/
+a:hover{
+	text-decoration: none;
+}
+
+.page-actions{
+	margin-top: 30px;
+}
+
+.page-pagination{
+	text-align: center;
+}
+
+/* Login
+------------------------------------------------------------*/
+body.login{
+	background: #EEE url(../images/login-bg.jpg) no-repeat;
+	background-size: 100%;
+}
+
+	.login .logo{
+		margin-top: 10%;
+		text-align: center;
+	}
+
+	.login .log img{
+		display: inline;
+	}
+
+	.login .box{
+		width: 30%;
+		padding: 20px;
+		margin: 20px auto 0;
+		background: #FFF;
+		box-shadow:	0 0 5px #CCC;
+		border-radius: 3px;
+	}
+
+	.login .box h2{
+		margin: 0 0 20px 0;
+		padding: 0;
+		font-style: 32px;
+		color: #999;
+		text-align: center;
+	}
+
+	.login .box .error{
+		text-align: center;
+		color: #d52027;
+	}
+
+	.login .box .submit{
+		min-width: 100px;
+	}
+
+	.login .powered{
+		height: 60px;
+		margin: 20px 0 0;
+		background: url(../images/login-powered.png) center no-repeat;
+	} 
+
+
+/* Main
+------------------------------------------------------------------*/
+.main{
+	margin-left: 250px;
+	margin-top: 45px;
+}
+
+/* Sidebar
+------------------------------------------------------------------*/
+.sidebar{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	background: #242424;
+	color: #EEE;
+}
+
+	.sidebar .logo{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		display: block;
+		text-align: center;
+
+		padding: 10px 0 30px;
+		width: 100%;
+	}
+
+	.sidebar .logo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.sidebar .menu{
+
+	}
+
+		.sidebar .menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			.sidebar .menu li{
+			
+			}
+
+				.sidebar .menu a{
+					display: block;
+					padding: 10px;
+					color: #FFF;
+					border-bottom: 1px solid #444;
+				}
+
+				.sidebar .menu a:hover{
+					background: #444;
+				}	
+
+
+/* Topbar
+------------------------------------------------------------------*/
+.topbar{
+	position: fixed;
+	top: 0;
+	left: 250px;
+	right: 0;
+	background: #444;
+	border-bottom: 1px solid #666;
+	width: auto;
+	height: 45px;
+}
+
+	.topbar .part{
+		display: inline-block;
+		float: right;
+		padding: 15px;
+		color: #FFF;
+		line-height: 15px;
+		height: 45px;
+		color: #EEE;
+	}
+
+	.topbar a.part{
+		background: #333;
+	}
+
+	.topbar a.part:hover{
+		background: #222;
+		color: #FFF;
+	}
+
+
+/* Content
+------------------------------------------------------------------*/
+.content{
+
+}
+
+	.bigerror{
+		font-size: 24px;
+		text-align: center;
+		padding: 30px 0;
+	}
+
+	.content .top{
+		margin-bottom: 30px;
+	}
+
+	.content .title{
+
+	}
+
+	.content .btn-main{
+		float: right;
+		display: inline-block;
+		margin-top: 25px;
+	}
+
+/* Tables
+------------------------------------------------------------------*/
+.table{
+	/*margin-top: 30px;*/
+}
+
+	.table thead th{
+		background: #E7E7E7;
+	}
+
+	.table a.action{
+		opacity: 0.3;
+	}
+
+	.table tr:hover a.action{
+		opacity: 1;
+	}
+
+
+	.table tr.parent td{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-top: 2px solid #CCC;
+	}
+
+	.table tr.child td{
+		font-size: 12px;
+	}
+
+	.table tr td img{
+		width: 25px;
+	}
+
+/* Tables
+------------------------------------------------------------------*/
+.form-group .img img{
+	width: 25px;
+	margin-right: 20px;
+}

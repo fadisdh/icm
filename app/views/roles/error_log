@@ -1,0 +1,14 @@
+[02-Mar-2015 12:02:12 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[02-Mar-2015 12:02:12 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[02-Mar-2015 12:03:13 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[02-Mar-2015 12:03:13 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[02-Mar-2015 12:51:25 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[02-Mar-2015 12:51:25 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[03-Mar-2015 12:25:48 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[03-Mar-2015 12:25:48 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[05-Mar-2015 10:53:23 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[05-Mar-2015 10:53:23 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 54
+[08-Mar-2015 19:51:23 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 58
+[08-Mar-2015 19:51:23 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 58
+[10-Mar-2015 08:19:20 America/Denver] PHP Notice:  Undefined variable: roles in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 58
+[10-Mar-2015 08:19:20 America/Denver] PHP Fatal error:  Call to a member function links() on a non-object in /home4/fadisdhc/public_html/icm/app/views/roles/all.blade.php on line 58

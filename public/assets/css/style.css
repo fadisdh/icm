@@ -1,0 +1,502 @@
+/* Common
+------------------------------------------------------------*/
+html, body{
+	font-family: 'Lato', sans-serif;
+}
+
+a, a:hover, a:focus, a:visited{
+	text-decoration: none;
+}
+
+.page-actions{
+	margin-top: 30px;
+}
+
+.page-pagination{
+	text-align: center;
+}
+
+/* Bootstrap
+------------------------------------------------------------ */
+.btn{
+	border-radius: 0;
+}
+
+.form-control{
+	border-radius: 0;
+}
+
+.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover{
+	z-index: auto;
+}
+
+.panel{
+	border-radius: 0;
+}
+
+.panel .panel-heading{
+	background: #E7E7E7;
+}
+
+/* Calendar
+------------------------------------------------------------ */
+.calendar-selected{
+	background: #999;
+	color: #FFF;
+}
+
+/* Login
+------------------------------------------------------------*/
+body.login{
+	background: #EEE url(../images/login-bg.jpg) no-repeat;
+	background-size: 100%;
+}
+
+	.login .logo{
+		margin-top: 10%;
+		text-align: center;
+	}
+
+	.login .log img{
+		display: inline;
+	}
+
+	.login .box{
+		width: 30%;
+		padding: 20px;
+		margin: 20px auto 0;
+		background: #FFF;
+		box-shadow:	0 0 5px #CCC;
+		border-radius: 3px;
+	}
+
+	.login .box h2{
+		margin: 0 0 20px 0;
+		padding: 0;
+		font-style: 32px;
+		color: #999;
+		text-align: center;
+	}
+
+	.login .box .error{
+		text-align: center;
+		color: #d52027;
+	}
+
+	.login .box .submit{
+		min-width: 100px;
+	}
+
+	.login .powered{
+		height: 60px;
+		margin: 20px 0 0;
+		background: url(../images/login-powered.png) center no-repeat;
+	} 
+
+
+/* Main
+------------------------------------------------------------------*/
+.main{
+	margin-left: 250px;
+	margin-top: 45px;
+}
+
+.table-dsi th, .table-dsi td{
+	text-align: center;
+}
+
+.sortable{
+	min-width: 100%;
+}
+
+/* Sidebar
+------------------------------------------------------------------*/
+.sidebar{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	background: #242424;
+	color: #EEE;
+}
+
+	.sidebar .logo{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		display: block;
+		text-align: center;
+
+		padding: 10px 0 30px;
+		width: 100%;
+	}
+
+	.sidebar .logo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.sidebar .menu{
+
+	}
+
+		.sidebar .menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			.sidebar .menu li{
+			
+			}
+
+				.sidebar .menu a{
+					display: block;
+					padding: 10px;
+					color: #FFF;
+					font-size: 14px;
+					border-bottom: 1px solid #444;
+				}
+
+				.sidebar .menu a:hover{
+					background: #444;
+				}	
+
+				.sidebar .menu a i{
+					display: inline-block;
+					margin-right: 7px;
+					font-size: 14px;
+				} 
+
+
+/* Topbar
+------------------------------------------------------------------*/
+.topbar{
+	position: fixed;
+	top: 0;
+	left: 250px;
+	right: 0;
+	z-index: 99;
+	background: #444;
+	border-bottom: 1px solid #666;
+	width: auto;
+	height: 45px;
+}
+
+	.topbar .part{
+		display: inline-block;
+		float: right;
+		padding: 15px;
+		color: #FFF;
+		line-height: 15px;
+		height: 45px;
+		color: #EEE;
+	}
+
+	.topbar a.part{
+		background: #333;
+	}
+
+	.topbar a.part:hover{
+		background: #222;
+		color: #FFF;
+	}
+
+
+/* Content
+------------------------------------------------------------------*/
+.content{
+
+}
+
+	.bigerror{
+		font-size: 24px;
+		text-align: center;
+		padding: 30px 0;
+	}
+
+	.content .top{
+		margin-bottom: 30px;
+	}
+
+	.content .btn-main{
+		float: right;
+		display: inline-block;
+		margin-top: 25px;
+	}
+
+.section{
+	margin: 20px 0;
+}
+
+.section-header{
+	padding: 10px 0;
+}
+
+.section-title{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Navbar
+------------------------------------------------------------------ */
+.navbar-default{
+	background: #E7E7E7;
+	border-bottom: 1px solid #CCC;
+	border-radius: 0;
+}
+
+.navbar .container-fluid{
+	padding: 0 10px;
+}
+
+.navbar .navbar-form{
+	padding-right: 0;
+}
+
+.navbar .nav li{
+	border-left: 1px solid #CCC;
+}
+
+.navbar .nav.navbar-right li{
+	border-left: 0;
+	border-right: 1px solid #CCC;
+}
+
+.navbar .nav li>a{
+	font-size: 16px;
+}
+
+.page-actions{
+	color: #666;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+	.page-actions .row{
+		height: 30px;
+		line-height: 30px;
+	}
+
+	.page-actions .title{
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.page-actions .actions{
+		height: 34px;
+	}
+
+	.page-actions .input-group{
+		width: 250px;
+		margin-left: 10px;
+	}
+
+	.page-actions .input-group button, .page-actions .input-group input{
+		border-radius: 0;
+	} 
+
+	.btns a{
+		display: inline-block;
+		margin-left: 5px;
+		border-radius: 0;
+	}
+
+	.page-actions .btns a i{
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+/* Tables
+------------------------------------------------------------------ */
+.table{
+	/*margin-top: 30px;*/
+}
+
+	.table thead th{
+		background: #E7E7E7;
+	}
+
+	.table a.action{
+		opacity: 0.3;
+	}
+
+	.table tr:hover a.action{
+		opacity: 1;
+	}
+
+
+	.table tr.parent td{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-top: 2px solid #CCC;
+	}
+
+	.table tr.child td{
+		font-size: 12px;
+	}
+
+	.table tr td img{
+		width: 25px;
+	}
+
+	.table tr:hover{
+		background-color: #E7E7E7;
+
+		-webkit-transition: background-color 200ms ease-out;
+	    -moz-transition: background-color 200ms ease-out;
+	    -o-transition: background-color 200ms ease-out;
+	    transition: background-color 200ms ease-out;
+	}
+
+	.table tr a{
+		opacity: 0.2;
+
+		-webkit-transition: background-color 200ms ease-out;
+	    -moz-transition: background-color 200ms ease-out;
+	    -o-transition: background-color 200ms ease-out;
+	    transition: background-color 200ms ease-out;
+	}
+
+	.table tr:hover a{
+		opacity: 1;
+	}
+
+	.table tr.selected td{
+		background: #337ab7;
+		color: #FFF;
+	}
+	
+
+/* Tables
+------------------------------------------------------------------*/
+.form-group .img img{
+	width: 25px;
+	margin-right: 20px;
+}
+
+/* Expandable
+------------------------------------------------------------------*/
+.expandable-wrapper{
+	margin: 0;	
+	padding: 0;
+	list-style: none;
+}
+
+	.expandable-wrapper li{
+		margin: 0;
+		padding: 0;
+		display: none;
+	}
+
+
+/* Projects
+-----------------------------------------------------------------*/
+.projects{
+
+}
+
+	.project{
+		display: block;
+		background: #F7F7F7;
+		border: 1px solid #CCC;
+		-webkit-box-shadow: 0 0 3px #CCC;
+		box-shadow: 0 0 3px #CCC;
+		margin-bottom: 30px;
+
+		-webkit-transition: all .2s ease-in;
+		-o-transition: all .2s ease-in;
+		transition: all .2s ease-in;
+	}
+
+	.project:hover{
+  		-webkit-box-shadow: #999;
+  		box-shadow: #999;
+  		background: #EEE;
+	}
+
+		.project .img{
+			overflow: hidden;
+		}
+
+			.project .img img{
+				width: 100%;
+				height: auto;
+			}
+
+		.project .title{
+			margin: 10px;
+			padding: 0;
+			font-size: 22px;
+			color: #333;
+		}
+
+		.project .description{
+			margin: 10px;
+			font-size: 14px;
+			color: #666;
+			text-align: justify;
+			height: 50px;
+			overflow: hidden;
+		}
+
+		.project .actions{
+			width: 100%;
+			border-top: 1px solid #CCC;
+			background: ;
+		}
+
+			.project .actions a{
+				display: block;
+				float: left;
+				width: 25%;
+				text-align: center;
+				color: #333;
+				padding: 10px;
+				margin: 0;
+			}
+
+			.project .actions a:hover{
+				background: #333;
+				color: #CCC;
+			}
+
+/* Reports
+----------------------------------------------------------------*/
+.report .nav-tabs{
+	background: #EEE;
+}
+
+	.report .nav-tabs li{
+		float: none;
+	}
+
+	.report .nav-tabs li a{
+		border: none;
+		border-bottom: 1px solid #DDD;
+		margin-right: 0;
+		border-radius: 0;
+		background: transparent;
+	}
+
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+		border: none;
+		border-bottom: 1px solid #DDD;
+		border-color: #DDD;
+		background: #333;
+		color: #FFF;
+	}
+
+	.nav-tabs>li>a:hover{
+		border-color: #DDD;
+		background: #DDD;
+	}
+
+/* More
+---------------------------------------------------------------------------------------------------- */
+.more-remove{
+	
+}
